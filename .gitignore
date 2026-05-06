@@ -1,0 +1,22 @@
+# Claude Code workspace
+.claude/
+
+# Jupyter
+**/.ipynb_checkpoints/
+*.pyc
+**/__pycache__/
+
+# Large model weights (too big for GitHub)
+**/*.safetensors
+**/*.bin
+**/*.pt
+**/*.ckpt
+**/bert-imdb-finetuned/
+**/t5-cnn-dailymail/
+**/t5-epochs/
+**/qa-bert-squad/
+**/qa-epochs/
+
+# OS
+.DS_Store
+Thumbs.db
